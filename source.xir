@@ -1,0 +1,6 @@
+def square(num):
+    num: num * num
+    return num
+
+myNum: get "Please enter a number: "
+say myNum + " squared is " + square(myNum)
